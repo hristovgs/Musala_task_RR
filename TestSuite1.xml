@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="TestCase1" >
+    <test name="EMAIL_ADRESS_ERRORMESSAGE_VALIDATION" parallel = "classes" thread-count = "2" >
+        <classes>
+            <class name="frontend.positive.TestCase1.TC1Chrome" />
+            <class name="frontend.positive.TestCase1.TC1FireFox" />
+        </classes>
+    </test>
+</suite>
+
+
+

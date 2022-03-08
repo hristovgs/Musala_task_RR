@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="TestCase2" >
+    <test name="Musala_Company_Page_validations" parallel = "classes" thread-count = "2" >
+        <classes>
+            <class name="frontend.positive.TestCase2.TC2Chrome" />
+            <class name="frontend.positive.TestCase2.TC2FireFox" />
+        </classes>
+    </test>
+</suite>
+
